@@ -1,0 +1,36 @@
+{
+  "name": "edufine-estimate-paster",
+  "version": "1.0.0",
+  "description": "업체 견적서 및 인터넷 쇼핑몰 장바구니 데이터를 에듀파인 업로드 엑셀 파일 및 기안 초안 텍스트로 자동 변환해 주는 도구",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && tsx server.ts",
+    "build": "vite build",
+    "start": "node server.ts",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

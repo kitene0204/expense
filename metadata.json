@@ -1,0 +1,6 @@
+{
+  "name": "에듀파인 품의 엑셀 변환기",
+  "description": "업체 견적서나 장바구니 텍스트를 K-에듀파인 기안문 복사용 텍스트 및 업로드용 엑셀 파일로 간편하게 자동 변환해주는 도구",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
